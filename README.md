@@ -6,6 +6,7 @@
 - PORT::81 - Commum Apps
 - PORT::85 - Utillities
 
-Para que todas os micro fronts utilizem a mesma versão do react
+## Técnicas utilizadas
 
-- Adicionar o React via CDN no root (import map)
+- Para navegação entre rotas utiliza-se `navigateToUrl` do próprio single-spa.
+- Para que todas os micro fronts utilizem a mesma versão do react, foi adicionado o React via CDN no root (import map)

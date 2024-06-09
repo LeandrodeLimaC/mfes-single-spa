@@ -1,8 +1,8 @@
 import { registerApplication, start } from "single-spa";
 import {
   constructApplications,
-  constructRoutes,
   constructLayoutEngine,
+  constructRoutes,
 } from "single-spa-layout";
 import microfrontendLayout from "./microfrontend-layout.html";
 
